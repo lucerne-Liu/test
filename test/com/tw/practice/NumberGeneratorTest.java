@@ -28,4 +28,5 @@ public class NumberGeneratorTest {
             assertFalse(generatedNumber.substring(i + 1, 4).contains(generatedNumber.substring(i, i + 1)));
         }
     }
+
 }
